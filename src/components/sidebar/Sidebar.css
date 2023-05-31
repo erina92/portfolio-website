@@ -20,9 +20,14 @@
 }
 
 .nav__link {
-  font-size: 1.65rem;
+  font-size: 1.15rem;
   color: var(--title-color);
   font-weight: var(--font-bold);
+  transition: 0.3s;
+}
+
+.nav__link:hover {
+  color: hsl(35deg, 88%, 72%);
 }
 
 .copyright {

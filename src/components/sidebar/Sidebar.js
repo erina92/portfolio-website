@@ -14,37 +14,37 @@ export default function Sidebar() {
           <ul className="nav__list">
             <li className="nav__item">
               <a href="#Home" className="nav__link">
-                <i className="icon-home"></i>
+                <i className="fa-solid fa-house"></i>
               </a>
             </li>
 
             <li className="nav__item">
               <a href="#About" className="nav__link">
-                <i className="icon-user-following"></i>
+                <i className="fa-solid fa-user"></i>
               </a>
             </li>
 
             <li className="nav__item">
               <a href="#Services" className="nav__link">
-                <i className="icon-briefcase"></i>
+                <i className="fa-solid fa-briefcase"></i>
               </a>
             </li>
 
             <li className="nav__item">
               <a href="#Resume" className="nav__link">
-                <i className="icon-graduation"></i>
+                <i className="fa-solid fa-graduation-cap"></i>
               </a>
             </li>
 
             <li className="nav__item">
               <a href="#Portfolio" className="nav__link">
-                <i className="icon-layers"></i>
+                <i className="fa-solid fa-layer-group"></i>
               </a>
             </li>
 
             <li className="nav__item">
               <a href="#Contact" className="nav__link">
-                <i className="icon-note"></i>
+                <i className="fa-solid fa-envelope"></i>
               </a>
             </li>
           </ul>
