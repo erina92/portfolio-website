@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import Image from "../../assets/avatar-5.svg";
+import AboutBox from "./AboutBox";
 
 export default function About() {
   return (
@@ -24,7 +25,7 @@ export default function About() {
               and drive to learn and grow in both my pursuits make me a great
               asset in bridging the gap between languages and technologies.
             </p>
-            <a href="" className="btn">
+            <a href="#" className="btn">
               Download CV
             </a>
           </div>
@@ -32,22 +33,45 @@ export default function About() {
             <div className="skills_data">
               <div className="skills__titles">
                 <h3 className="skills__name">Development</h3>
-                <span className="skills__number development">90%</span>
+                <span className="skills__number">90%</span>
               </div>
 
               <div className="skills__bar">
-                <span className="skills__percentage"></span>
+                <span className="skills__percentage development"></span>
               </div>
             </div>
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">UI/UX Design</h3>
-                <span className="skills__number ux">40%</span>
+                <span className="skills__number">20%</span>
+              </div>
+              <div className="skills__bar">
+                <span className="skills__percentage ux"></span>
+              </div>
+            </div>
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Translation</h3>
+                <span className="skills__number">100%</span>
+              </div>
+              <div className="skills__bar">
+                <span className="skills__percentage translation"></span>
+              </div>
+            </div>
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">React</h3>
+                <span className="skills__number">60%</span>
+              </div>
+              <div className="skills__bar">
+                <span className="skills__percentage react"></span>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <AboutBox />
     </section>
   );
 }
