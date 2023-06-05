@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import Image from "../../assets/avatar-5.svg";
+import Image from "../assets/avatar-5.svg";
 import AboutBox from "./AboutBox";
 
 export default function About() {
@@ -23,7 +23,7 @@ export default function About() {
               and drive to learn and grow in both my pursuits make me a great
               asset in bridging the gap between languages and technologies.
             </p>
-            <a href="#" className="btn">
+            <a href="#Home" className="btn">
               Download CV
             </a>
           </div>

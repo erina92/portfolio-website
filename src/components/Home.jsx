@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Me from "../../assets/avatar-4.svg";
+import Me from "../assets/avatar-4.svg";
 import ScrollDown from "./ScrollDown";
 import Shapes from "./Shapes";
 import HeaderSocials from "./HeaderSocials";
@@ -14,8 +14,10 @@ export default function Home() {
         <span className="home__education">
           I am a Front-End Developer and Translator
         </span>
+
         <HeaderSocials />
-        <a href="#" className="btn">
+
+        <a href="#Contact" className="btn">
           Hire Me
         </a>
 
