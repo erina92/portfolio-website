@@ -17,15 +17,13 @@ export default function About() {
               I am Erika Miglietta, translator/interpreter and web developer
               hailing from Taranto, Italy. Having majored in specialized
               translation, I have a keen eye for detail and an innate ability to
-              convey ideas across languages. My recent endavors in the field of
-              coding have allowed me to broaden my skill set and delve into the
-              world of web development. Through dedicated self-study, I was
+              convey ideas across languages. Through dedicated self-study, I was
               focused on mastering Javascript and React, two powerful tools for
               building interactive and user-friendly applications. My ambitions
               and drive to learn and grow in both my pursuits make me a great
               asset in bridging the gap between languages and technologies.
             </p>
-            <a href="#" className="btn">
+            <a href="#Contact" className="btn">
               Download CV
             </a>
           </div>

@@ -29,13 +29,13 @@
   justify-content: center;
 }
 
-.home__socials-link {
+.socials__link {
   color: var(--title-color);
-  font-size: 1.9rem;
+  font-size: 2rem;
   transition: 0.3s;
 }
 
-.home__socials-link:hover {
+.socials__link:hover {
   color: hsl(35deg, 88%, 72%);
 }
 

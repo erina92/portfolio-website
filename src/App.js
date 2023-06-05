@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
 import Sidebar from "./components/sidebar/Sidebar";
-import HomePage from "./components/HomePage/Home";
-import About from "./components/AboutMe/About";
+import Home from "./components/home/Home";
+import About from "./components/about/About";
 import Services from "./components/services/Services";
-import Resume from "./components/Resume/Resume";
-import Portfolio from "./components/Experiences/Portfolio";
+import Resume from "./components/resume/Resume";
+import Portfolio from "./components/experience/Portfolio";
 import Contact from "./components/contact/Contact";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Sidebar />
       <main className="main">
-        <HomePage />
+        <Home />
         <About />
         <Services />
         <Resume />

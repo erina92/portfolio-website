@@ -5,7 +5,7 @@ export default function HeaderSocials() {
     <div className="home__socials">
       <a
         href="https://www.instagram.com/eri.codes/"
-        className="home__socials-link"
+        className="socials__link"
         target="_blank"
         rel="noreferrer"
       >
@@ -14,16 +14,16 @@ export default function HeaderSocials() {
 
       <a
         href="https://github.com/erina92"
-        className="home__socials-link"
+        className="socials__link"
         target="_blank"
         rel="noreferrer"
       >
-        <i className="fa-brands fa-github"></i>
+        <i className="fa-brands fa-square-github"></i>
       </a>
 
       <a
         href="https://www.linkedin.com/in/erika-miglietta/"
-        className="home__socials-link"
+        className="socials__link"
         target="_blank"
         rel="noreferrer"
       >
