@@ -23,7 +23,7 @@ export default function About() {
               and drive to learn and grow in both my pursuits make me a great
               asset in bridging the gap between languages and technologies.
             </p>
-            <a href="#Contact" className="btn">
+            <a href="#" className="btn">
               Download CV
             </a>
           </div>

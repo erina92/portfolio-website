@@ -15,7 +15,7 @@ export default function Home() {
           I am a Front-End Developer and Translator
         </span>
         <HeaderSocials />
-        <a href="#Contact" className="btn">
+        <a href="#" className="btn">
           Hire Me
         </a>
 
